@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	overflow: hidden;
+}
+.container {
+	height: 100vh;
+	position: relative;
+	font-family: 'Raleway', sans-serif;
+}
+.circle-middle {
+	position: absolute;
+	right: 320px;
+	top: 220px;
+	background-color: #00843f;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	mix-blend-mode: color-burn;
+}
+.ray-container {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	-webkit-animation: ray_anim 120s linear infinite;
+ 	animation: ray_anim 120s linear infinite;
+	/*opacity: 0.3;*/
+	width:200px;
+	/*background-color: #000;*/
+}
+.art {
+	font-size: 150px;
+	line-height: 90px;
+	position: absolute;
+	bottom: 0px;
+	left: 70px;
+	color: #fff;
+}
+.astherapy {
+	mix-blend-mode: color-burn;
+	font-size: 170px;
+	color: #00843f;
+}	
+.circle-top {
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	border-radius: 300px;
+	background-color: #4b4;
+	top: -200px;
+	right: -150px;
+}
+
+.circle-bottom {
+	position: absolute;
+	width: 700px;
+	height: 700px;
+	border-radius: 350px;
+	background-color: #4b4;
+	bottom: -300px;
+	left: -100px;
+}
+.info {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	text-align: right;
+	width: 500px;
+	height: 500px;
+	color: #fff;
+}
+::selection {
+	background: #0f0;
+}
+::-moz-selection; {
+	background: #0f0;
+}
