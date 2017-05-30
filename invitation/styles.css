@@ -12,7 +12,7 @@ body {
 .circle-middle {
 	position: absolute;
 	right: 320px;
-	top: 220px;
+	top: 200px;
 	background-color: #00843f;
 	width: 200px;
 	height: 200px;
@@ -51,11 +51,12 @@ body {
 	height: 600px;
 	border-radius: 300px;
 	background-color: #4b4;
-	top: -200px;
+	top: -250px;
 	right: -150px;
 }
 
 .circle-bottom {
+	z-index: -100;
 	position: absolute;
 	width: 700px;
 	height: 700px;
@@ -78,4 +79,22 @@ body {
 }
 ::-moz-selection; {
 	background: #0f0;
+}
+@media screen and (max-width: 915px) {
+	.astherapy {
+		font-size: 140px;
+	}
+	.art {
+		font-size: 120px;
+		line-height: 70px;
+	}
+}
+@media screen and (max-width: 770px) {
+	.astherapy {
+		font-size: 100px;
+	}
+	.art {
+		font-size: 85px;
+		line-height: 60px;
+	}
 }
